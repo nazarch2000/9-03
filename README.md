@@ -43,6 +43,7 @@
 3. Выключите хост, чей триггер добавлен в линк. Дождитесь срабатывания триггера.
 ![image](https://user-images.githubusercontent.com/106932460/214050957-edebebe8-b82f-4e21-945a-7ae984254c93.png)
 ![image](https://user-images.githubusercontent.com/106932460/214051031-511f85bf-4537-47ab-b671-ed06ef7b5196.png)
+![image](https://user-images.githubusercontent.com/106932460/214051210-6da3a81d-6f45-4f38-8b51-3fbcacd82960.png)
 
 * Сохраните в Git скриншот карты, где видно, что триггер сработал, с названием «Задание 5».* 
 

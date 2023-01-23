@@ -56,6 +56,7 @@
 - при получении 2 будет возвращать текущую дату.
 
 *Приложите в Git код скрипта, а также скриншот Latest data с результатом работы скрипта на bash, чтобы был виден результат работы скрипта при отправке в него 1 и 2.*
+
 ![image](https://user-images.githubusercontent.com/106932460/214124139-9ff69111-47a7-45b6-bbe8-f4740c39a11e.png)
 ![image](https://user-images.githubusercontent.com/106932460/214130313-ab264d0f-5d20-4ba9-8c3e-7e4cc957f9b2.png)
 

@@ -69,6 +69,8 @@
 - при получении 1 возвращать ваши ФИО,
 - при получении 2 возвращать текущую дату,
 - делать всё, что делал скрипт из лекции.
+`import sysimport osimport reif (sys.argv[1] == '-ping'): # Если -pingresult=os.popen("ping -c 1 " + sys.argv[2]).read() # Делаем пинг по заданному адресуresult=re.findall(r"time=(.*) ms", result) # Выдёргиваем из результата времяprint(result[0]) # Выводим результат в консольelif (sys.argv[1] == '-simple_print'): # Если simple_print print(sys.argv[2]) # Выводим в консоль содержимое sys.arvg[2]else: # Во всех остальных случаяхprint(f"unknown input: {sys.argv[1]}") Выводим непонятый запрос в консоль.`
+
 
 *Приложите код скрипта в Git. Приложите в Git скриншот Latest data с результатом работы скрипта на Python, чтобы были видны результаты работы скрипта при отправке в него 1, 2, -ping, а также -simple_print.*
  

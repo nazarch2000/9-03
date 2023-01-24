@@ -74,19 +74,21 @@ import sys
 import os
 import re
 import datetime
-now = datetime.datetime.date()
-if (sys.argv[1] == '-ping'): # Если -ping
-result=os.popen("ping -c 1 " + sys.argv[2]).read() # Делаем пинг по заданному адресу
-result=re.findall(r"time=(.*) ms", result) # Выдёргиваем из результата время
- print(result[0]) # Выводим результат в консоль
- print "Ryjenko Nazariy" # Мое ФИО
-elif (sys.argv[1] == '-simple_print'): # Если simple_print 
- print(sys.argv[2]) # Выводим в консоль содержимое sys.arvg[2]
- print str(date) # Вывести дату
+now = datetime.datetime.now()
+if (sys.argv[1] == '-ping'):
+        result=os.popen("ping -c 1 " + sys.argv[2]).read()
+        result=re.findall(r"time=(.*) ms", result)
+        print(result[0])
+elif (sys.argv[1] == '1'):
+        print("Ryjenko Nazariy")
+elif (sys.argv[1] == '2'):
+        print(now) # Вывести дату
+elif (sys.argv[1] == '-simple_print'): # Если simple_print
+        print(sys.argv[2]) # Выводим в консоль содержимое sys.arvg[2]
 else: # Во всех остальных случаях
- print(f"unknown input: {sys.argv[1]}") Выводим непонятый запрос в консоль.
+        print(f"unknown input: {sys.argv[1]}") # Выводим непонятый запрос в консоль.
 ```
-
+![image](https://user-images.githubusercontent.com/106932460/214413137-1507f641-8395-4e06-8f21-aebbaf8fdbb6.png)
 
 *Приложите код скрипта в Git. Приложите в Git скриншот Latest data с результатом работы скрипта на Python, чтобы были видны результаты работы скрипта при отправке в него 1, 2, -ping, а также -simple_print.*
  
